@@ -22,7 +22,7 @@
 #ifndef SDL_sysstorage_h_
 #define SDL_sysstorage_h_
 
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 
 typedef struct TitleStorageBootStrap
 {

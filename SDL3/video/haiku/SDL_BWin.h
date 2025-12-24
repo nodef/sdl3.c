@@ -26,7 +26,7 @@
 extern "C" {
 #endif
 
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 #include "SDL_bframebuffer.h"
 
 #ifdef __cplusplus

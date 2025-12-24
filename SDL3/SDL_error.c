@@ -109,4 +109,3 @@ bool SDL_OutOfMemory(void)
     }
     return false;
 }
-

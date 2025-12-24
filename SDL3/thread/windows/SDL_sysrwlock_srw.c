@@ -18,7 +18,7 @@
      misrepresented as being the original software.
   3. This notice may not be removed or altered from any source distribution.
 */
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 
 /**
  * Implementation based on Slim Reader/Writer (SRW) Locks for Win 7 and newer.
@@ -228,4 +228,3 @@ void SDL_UnlockRWLock(SDL_RWLock *rwlock) SDL_NO_THREAD_SAFETY_ANALYSIS  // clan
         SDL_rwlock_impl_active.Unlock(rwlock);
     }
 }
-

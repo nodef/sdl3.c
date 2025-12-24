@@ -18,7 +18,7 @@
      misrepresented as being the original software.
   3. This notice may not be removed or altered from any source distribution.
 */
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 
 #ifndef SDL_VIDEO_DRIVER_WINDOWS
 
@@ -112,4 +112,3 @@ void SDL_SetiOSEventPump(bool enabled)
     SDL_Unsupported();
 }
 #endif
-

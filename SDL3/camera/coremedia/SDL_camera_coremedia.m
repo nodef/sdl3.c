@@ -18,7 +18,7 @@
      misrepresented as being the original software.
   3. This notice may not be removed or altered from any source distribution.
 */
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 
 #ifdef SDL_CAMERA_DRIVER_COREMEDIA
 
@@ -505,4 +505,3 @@ CameraBootStrap COREMEDIA_bootstrap = {
 };
 
 #endif // SDL_CAMERA_DRIVER_COREMEDIA
-

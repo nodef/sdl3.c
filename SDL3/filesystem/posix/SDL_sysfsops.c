@@ -19,7 +19,7 @@
   3. This notice may not be removed or altered from any source distribution.
 */
 
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 
 #if defined(SDL_FSOPS_POSIX)
 
@@ -243,4 +243,3 @@ char *SDL_SYS_GetCurrentDirectory(void)
 }
 
 #endif // SDL_FSOPS_POSIX
-

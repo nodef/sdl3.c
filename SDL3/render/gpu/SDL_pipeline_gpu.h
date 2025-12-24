@@ -22,7 +22,7 @@
 #ifndef SDL_pipeline_gpu_h_
 #define SDL_pipeline_gpu_h_
 
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 
 #include "SDL_shaders_gpu.h"
 

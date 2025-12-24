@@ -16,7 +16,7 @@
  code repository located at:
         https://github.com/libusb/hidapi .
 ********************************************************/
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 
 #ifndef HIDAPI_DESCRIPTOR_RECONSTRUCT_H__
 #define HIDAPI_DESCRIPTOR_RECONSTRUCT_H__

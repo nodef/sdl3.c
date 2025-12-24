@@ -19,7 +19,7 @@
   3. This notice may not be removed or altered from any source distribution.
 */
 
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 
 #include "SDL_filesystem_c.h"
 #include "SDL_sysfilesystem.h"
@@ -527,4 +527,3 @@ void SDL_QuitFilesystem(void)
         }
     }
 }
-

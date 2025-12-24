@@ -23,7 +23,7 @@
 // the "generic" threadpool implementation if it isn't available or
 // fails for some other reason. IoRing was introduced in Windows 11.
 
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 #include "../SDL_sysasyncio.h"
 
 #ifdef HAVE_IORINGAPI_H
@@ -547,4 +547,3 @@ void SDL_SYS_QuitAsyncIO(void)
 }
 
 #endif  // defined HAVE_IORINGAPI_H
-

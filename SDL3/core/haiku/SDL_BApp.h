@@ -34,7 +34,7 @@
 extern "C" {
 #endif
 
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 
 // Local includes
 #include "../../events/SDL_events_c.h"

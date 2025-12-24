@@ -1,4 +1,4 @@
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 /*
  * Written by J.T. Conklin <jtc@netbsd.org>.
  * Public domain.

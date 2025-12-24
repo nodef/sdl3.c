@@ -19,7 +19,7 @@
   3. This notice may not be removed or altered from any source distribution.
 */
 
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 #include "SDL_sysasyncio.h"
 #include "SDL_asyncio_c.h"
 
@@ -328,4 +328,3 @@ bool SDL_LoadFileAsync(const char *file, SDL_AsyncIOQueue *queue, void *userdata
 
     return retval;
 }
-

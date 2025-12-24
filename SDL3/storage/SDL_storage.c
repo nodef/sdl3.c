@@ -19,7 +19,7 @@
   3. This notice may not be removed or altered from any source distribution.
 */
 
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 
 #include "SDL_sysstorage.h"
 #include "../filesystem/SDL_sysfilesystem.h"
@@ -410,4 +410,3 @@ char **SDL_GlobStorageDirectory(SDL_Storage *storage, const char *path, const ch
 
     return SDL_InternalGlobDirectory(path, pattern, flags, count, GlobStorageDirectoryEnumerator, GlobStorageDirectoryGetPathInfo, storage);
 }
-

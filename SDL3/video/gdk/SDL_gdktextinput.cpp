@@ -22,7 +22,7 @@
   Screen keyboard and text input backend
   for GDK platforms.
 */
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 #include "SDL_gdktextinput.h"
 
 #ifdef SDL_GDK_TEXTINPUT

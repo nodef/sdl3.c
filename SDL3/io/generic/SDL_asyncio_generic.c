@@ -23,7 +23,7 @@
 // This is not ideal, it's meant to be used if there isn't a platform-specific
 // backend that can do something more efficient!
 
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 #include "../SDL_sysasyncio.h"
 
 // on Emscripten without threads, async i/o is synchronous. Sorry. Almost
@@ -462,4 +462,3 @@ void SDL_SYS_QuitAsyncIO(void)
     SDL_SYS_QuitAsyncIO_Generic();
 }
 #endif
-

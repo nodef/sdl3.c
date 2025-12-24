@@ -22,7 +22,7 @@
 #ifndef SDL_triangle_h_
 #define SDL_triangle_h_
 
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 
 #include "../SDL_sysrender.h"   // For SDL_TextureAddressMode
 

@@ -1,4 +1,5 @@
 #pragma once
+#define SDL_DYNAMIC_API 0
 #include "SDL3/SDL.h"
 
 #ifdef SDL3_IMPLEMENTATION
@@ -81,7 +82,7 @@
 #include "SDL3/dialog/unix/SDL_unixdialog.c"
 #include "SDL3/dialog/unix/SDL_zenitydialog.c"
 #include "SDL3/dialog/windows/SDL_windowsdialog.c"
-#include "SDL3/dynapi/SDL_dynapi.c"
+// #include "SDL3/dynapi/SDL_dynapi.c"
 #include "SDL3/events/imKStoUCS.c"
 #include "SDL3/events/SDL_categories.c"
 #include "SDL3/events/SDL_clipboardevents.c"

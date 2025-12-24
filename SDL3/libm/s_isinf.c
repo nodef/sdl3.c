@@ -1,4 +1,4 @@
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 /*
  * Written by J.T. Conklin <jtc@netbsd.org>.
  * Changed to return -1 for -Inf by Ulrich Drepper <drepper@cygnus.com>.

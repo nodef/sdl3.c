@@ -21,7 +21,7 @@
 #ifndef SDL_vulkan_internal_h_
 #define SDL_vulkan_internal_h_
 
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 
 #ifdef SDL_VIDEO_VULKAN
 #ifdef SDL_VIDEO_DRIVER_ANDROID
@@ -51,7 +51,7 @@
 #define VK_NO_PROTOTYPES
 #include "./khronos/vulkan/vulkan.h"
 
-#include <SDL3/SDL_vulkan.h>
+#include "SDL_vulkan.h"
 
 extern const char *SDL_Vulkan_GetResultString(VkResult result);
 
@@ -81,7 +81,7 @@ extern void SDL_Vulkan_DestroySurface_Internal(void *vkGetInstanceProcAddr,
 #else
 
 // No SDL Vulkan support, just include the header for typedefs
-#include <SDL3/SDL_vulkan.h>
+#include "SDL_vulkan.h"
 
 typedef void (*PFN_vkGetInstanceProcAddr)(void);
 typedef int (*PFN_vkEnumerateInstanceExtensionProperties)(void);

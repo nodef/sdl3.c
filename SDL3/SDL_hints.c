@@ -400,4 +400,3 @@ void SDL_RemoveHintCallback(const char *name, SDL_HintCallback callback, void *u
     }
     SDL_UnlockProperties(hints);
 }
-

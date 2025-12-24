@@ -19,7 +19,7 @@
   3. This notice may not be removed or altered from any source distribution.
 */
 
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 
 #if defined(SDL_FSOPS_WINDOWS)
 
@@ -228,4 +228,3 @@ bool SDL_SYS_GetPathInfo(const char *path, SDL_PathInfo *info)
 }
 
 #endif // SDL_FSOPS_WINDOWS
-

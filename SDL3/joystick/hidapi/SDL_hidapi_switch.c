@@ -21,7 +21,7 @@
 /* This driver supports the Nintendo Switch Pro controller.
    Code and logic contributed by Valve Corporation under the SDL zlib license.
 */
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 
 #ifdef SDL_JOYSTICK_HIDAPI
 
@@ -966,7 +966,7 @@ static bool LoadStickCalibration(SDL_DriverSwitch_Context *ctx)
     if (user_reply && user_reply->stickUserCalibration.rgucRightMagic[0] == 0xB2 && user_reply->stickUserCalibration.rgucRightMagic[1] == 0xA1) {
         userParamsReadSuccessCount += 1;
         pRightStickCal = user_reply->stickUserCalibration.rgucRightCalibration;
-    } 
+    }
 
     // Only read the factory calibration info if we failed to receive the correct magic bytes
     if (userParamsReadSuccessCount < 2) {

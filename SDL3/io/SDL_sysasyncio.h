@@ -19,7 +19,7 @@
   3. This notice may not be removed or altered from any source distribution.
 */
 
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 
 #ifndef SDL_sysasyncio_h_
 #define SDL_sysasyncio_h_
@@ -141,4 +141,3 @@ extern bool SDL_SYS_CreateAsyncIOQueue_Generic(SDL_AsyncIOQueue *queue);
 extern void SDL_SYS_QuitAsyncIO_Generic(void);
 
 #endif
-

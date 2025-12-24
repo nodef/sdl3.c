@@ -18,7 +18,7 @@
  *     misrepresented as being the original software.
  *  3. This notice may not be removed or altered from any source distribution.
  */
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 
 #ifdef SDL_VIDEO_OPENGL_EGL
 
@@ -108,7 +108,7 @@
 #endif // SDL_VIDEO_DRIVER_RPI
 
 #if defined(SDL_VIDEO_OPENGL) && !defined(SDL_VIDEO_VITA_PVR_OGL)
-#include <SDL3/SDL_opengl.h>
+#include "SDL_opengl.h"
 #endif
 
 /** If we happen to not have this defined because of an older EGL version, just define it 0x0

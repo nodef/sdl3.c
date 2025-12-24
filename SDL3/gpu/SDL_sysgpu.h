@@ -19,7 +19,7 @@
   3. This notice may not be removed or altered from any source distribution.
 */
 #include "../video/SDL_sysvideo.h"
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 
 #ifndef SDL_GPU_DRIVER_H
 #define SDL_GPU_DRIVER_H

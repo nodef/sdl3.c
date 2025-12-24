@@ -19,7 +19,7 @@
   3. This notice may not be removed or altered from any source distribution.
 */
 
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 #include "../SDL_main_callbacks.h"
 
 #ifdef SDL_PLATFORM_IOS
@@ -95,5 +95,3 @@ int SDL_EnterAppMainCallbacks(int argc, char* argv[], SDL_AppInit_func appinit, 
 }
 
 #endif
-
-

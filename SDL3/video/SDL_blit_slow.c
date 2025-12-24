@@ -18,7 +18,7 @@
      misrepresented as being the original software.
   3. This notice may not be removed or altered from any source distribution.
 */
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 
 #include "SDL_surface_c.h"
 #include "SDL_blit_slow.h"
@@ -993,4 +993,3 @@ void SDL_Blit_Slow_Float(SDL_BlitInfo *info)
         info->dst += info->dst_pitch;
     }
 }
-

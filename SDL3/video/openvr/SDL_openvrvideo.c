@@ -18,7 +18,7 @@
      misrepresented as being the original software.
   3. This notice may not be removed or altered from any source distribution.
 */
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 
 #ifdef SDL_VIDEO_DRIVER_OPENVR
 
@@ -32,7 +32,7 @@
 #include "../SDL_egl_c.h"
 #include "SDL_openvrvideo.h"
 
-#include <SDL3/SDL_opengl.h>
+#include "SDL_opengl.h"
 
 #ifdef SDL_VIDEO_DRIVER_WINDOWS
 #include "../windows/SDL_windowsopengles.h"
@@ -48,7 +48,7 @@ struct SDL_GLContextState
 };
 
 #else
-#include <SDL3/SDL_opengles2_gl2.h>
+#include "SDL_opengles2_gl2.h"
 #endif
 
 #define MARKER_ID 0
@@ -1661,4 +1661,3 @@ VideoBootStrap OPENVR_bootstrap = {
 };
 
 #endif // SDL_VIDEO_DRIVER_WINDOWS
-

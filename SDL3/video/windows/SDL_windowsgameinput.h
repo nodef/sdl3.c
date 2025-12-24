@@ -18,7 +18,7 @@
      misrepresented as being the original software.
   3. This notice may not be removed or altered from any source distribution.
 */
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 
 typedef struct WIN_GameInputData WIN_GameInputData;
 
@@ -26,4 +26,3 @@ extern bool WIN_InitGameInput(SDL_VideoDevice *_this);
 extern bool WIN_UpdateGameInputEnabled(SDL_VideoDevice *_this);
 extern void WIN_UpdateGameInput(SDL_VideoDevice *_this);
 extern void WIN_QuitGameInput(SDL_VideoDevice *_this);
-

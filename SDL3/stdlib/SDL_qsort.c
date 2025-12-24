@@ -18,7 +18,7 @@
      misrepresented as being the original software.
   3. This notice may not be removed or altered from any source distribution.
 */
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 
 // SDL3 always uses its own internal qsort implementation, below, so
 // it can guarantee stable sorts across platforms and not have to
@@ -571,4 +571,3 @@ void *SDL_bsearch(const void *key, const void *base, size_t nmemb, size_t size, 
     // qsort_non_r_bridge just happens to match calling conventions, so reuse it.
     return SDL_bsearch_r(key, base, nmemb, size, qsort_non_r_bridge, compare);
 }
-

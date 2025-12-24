@@ -22,7 +22,7 @@
 #ifndef SDL_system_theme_h_
 #define SDL_system_theme_h_
 
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 
 extern bool SDL_SystemTheme_Init(void);
 extern SDL_SystemTheme SDL_SystemTheme_Get(void);

@@ -18,7 +18,7 @@
      misrepresented as being the original software.
   3. This notice may not be removed or altered from any source distribution.
 */
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 
 // This file contains portable random functions for SDL
 
@@ -112,4 +112,3 @@ float SDL_randf_r(Uint64 *state)
     // Note: its using 24 bits because float has 23 bits significand + 1 implicit bit
     return (SDL_rand_bits_r(state) >> (32 - 24)) * 0x1p-24f;
 }
-

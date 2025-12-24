@@ -1,0 +1,28 @@
+{
+  "name": "sdl3.c",
+  "version": "3.2.28",
+  "description": "Simple DirectMedia Layer; Sam Lantinga (1997).",
+  "keywords": [
+    "c",
+    "library",
+    "networking",
+    "graphics",
+    "audio",
+    "input",
+    "sdl"
+  ],
+  "homepage": "https://github.com/nodef/sdl3.c#readme",
+  "bugs": {
+    "url": "https://github.com/nodef/sdl3.c/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/sdl3.c.git"
+  },
+  "license": "Zlib",
+  "author": "wolfram77@gmail.com",
+  "main": "SDL3.h",
+  "scripts": {
+    "test": "bash build.sh test"
+  }
+}

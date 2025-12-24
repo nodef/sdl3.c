@@ -18,7 +18,7 @@
      misrepresented as being the original software.
   3. This notice may not be removed or altered from any source distribution.
 */
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 
 extern "C" {
 #include "../../core/gdk/SDL_gdk.h"
@@ -145,4 +145,3 @@ int SDL_RunApp(int, char**, SDL_main_func mainFunction, void *reserved)
 
     return result;
 }
-

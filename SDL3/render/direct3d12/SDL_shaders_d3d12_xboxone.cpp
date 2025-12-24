@@ -22,7 +22,7 @@
 
 #if defined(SDL_VIDEO_RENDER_D3D12) && defined(SDL_PLATFORM_XBOXONE)
 
-#include <SDL3/SDL_stdinc.h>
+#include "SDL_stdinc.h"
 
 #include "../../core/windows/SDL_windows.h"
 #include "../../video/directx/SDL_d3d12.h"
@@ -129,4 +129,3 @@ void D3D12_GetRootSignatureData(D3D12_RootSignature rootSig, D3D12_SHADER_BYTECO
 }
 
 #endif  // SDL_VIDEO_RENDER_D3D12 && SDL_PLATFORM_XBOXONE
-

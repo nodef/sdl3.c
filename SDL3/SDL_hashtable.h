@@ -76,9 +76,9 @@
 #ifndef SDL_hashtable_h_
 #define SDL_hashtable_h_
 
-#include <SDL3/SDL_stdinc.h>
+#include "SDL_stdinc.h"
 
-#include <SDL3/SDL_begin_code.h>
+#include "SDL_begin_code.h"
 /* Set up for C function definitions, even when using C++ */
 #ifdef __cplusplus
 extern "C" {
@@ -628,6 +628,6 @@ extern void SDL_DestroyHashValue(void *unused, const void *key, const void *valu
 #ifdef __cplusplus
 }
 #endif
-#include <SDL3/SDL_close_code.h>
+#include "SDL_close_code.h"
 
 #endif /* SDL_hashtable_h_ */

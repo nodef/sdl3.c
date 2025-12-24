@@ -18,7 +18,7 @@
      misrepresented as being the original software.
   3. This notice may not be removed or altered from any source distribution.
 */
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 
 
 #ifdef SDL_memmove
@@ -70,4 +70,3 @@ void *memmove(void *dst, const void *src, size_t len)
     return SDL_memmove(dst, src, len);
 }
 #endif // !HAVE_LIBC
-

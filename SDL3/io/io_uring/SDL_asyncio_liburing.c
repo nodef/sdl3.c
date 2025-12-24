@@ -23,7 +23,7 @@
 // the "generic" threadpool implementation if liburing isn't available or
 // fails for some other reason.
 
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 
 #ifdef HAVE_LIBURING_H
 
@@ -548,4 +548,3 @@ void SDL_SYS_QuitAsyncIO(void)
 }
 
 #endif  // defined HAVE_LIBURING_H
-

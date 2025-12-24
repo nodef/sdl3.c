@@ -18,7 +18,7 @@
      misrepresented as being the original software.
   3. This notice may not be removed or altered from any source distribution.
 */
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 
 #if defined(SDL_VIDEO_DRIVER_X11) && defined(SDL_VIDEO_OPENGL_EGL)
 
@@ -88,7 +88,7 @@ XVisualInfo *X11_GLES_GetVisual(SDL_VideoDevice *_this, Display *display, int sc
             }
         }
     }
-    
+
     if(!egl_visualinfo) {
         // Use the default visual when all else fails
         vi_in.screen = screen;
@@ -149,4 +149,3 @@ bool X11_GLES_SwapWindow(SDL_VideoDevice *_this, SDL_Window *window)
 SDL_EGL_MakeCurrent_impl(X11)
 
 #endif // SDL_VIDEO_DRIVER_X11 && SDL_VIDEO_OPENGL_EGL
-

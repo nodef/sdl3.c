@@ -28,7 +28,7 @@
  * have granted access to /dev/hidraw*
  */
 
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 
 #include "SDL_hidapi_c.h"
 #include "../joystick/usb_ids.h"

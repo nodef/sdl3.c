@@ -14,3 +14,11 @@ available in [LICENSE.txt](LICENSE.txt).
 Enjoy!
 
 Sam Lantinga (slouken@libsdl.org)
+
+<br>
+<br>
+
+
+[![SRC](https://img.shields.io/badge/src-repo-green?logo=Org)](https://github.com/libsdl-org/SDL)
+[![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/sdl3.c)

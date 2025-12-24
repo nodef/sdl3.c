@@ -22,7 +22,7 @@
 #ifndef SDL_stb_c_h_
 #define SDL_stb_c_h_
 
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 
 // Image conversion functions
 

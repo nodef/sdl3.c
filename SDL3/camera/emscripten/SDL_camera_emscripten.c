@@ -18,7 +18,7 @@
      misrepresented as being the original software.
   3. This notice may not be removed or altered from any source distribution.
 */
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 
 #ifdef SDL_CAMERA_DRIVER_EMSCRIPTEN
 
@@ -272,4 +272,3 @@ CameraBootStrap EMSCRIPTENCAMERA_bootstrap = {
 /* *INDENT-ON* */ // clang-format on
 
 #endif // SDL_CAMERA_DRIVER_EMSCRIPTEN
-

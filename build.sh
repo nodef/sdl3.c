@@ -30,23 +30,28 @@ cd ..
 echo "Copying libs to SDL3/ ..."
 rm -rf SDL3
 mkdir -p SDL3
-cp -rf ".build/$DIR/include/SDL3"/* SDL3/
 cp -rf ".build/$DIR/src"/* SDL3/
+cp -rf ".build/$DIR/include/build_config"/* SDL3/
+cp -rf ".build/$DIR/include/SDL3"/* SDL3/
 }
 
 
 # Test the project
 test() {
-echo "Running 01-validate-utf8.c ..."
-clang -I. -o 01.exe examples/01-validate-utf8.c  && ./01.exe && echo -e "\n"
-echo "Running 02-utf8-length.c ..."
-clang -I. -o 02.exe examples/02-utf8-length.c    && ./02.exe && echo -e "\n"
-echo "Running 03-utf8-to-upper.c ..."
-clang -I. -o 03.exe examples/03-utf8-to-upper.c  && ./03.exe && echo -e "\n"
-echo "Running 04-utf8-substring.c ..."
-clang -I. -o 04.exe examples/04-utf8-substring.c && ./04.exe && echo -e "\n"
-echo "Running 05-utf8-reverse.c ..."
-clang -I. -o 05.exe examples/05-utf8-reverse.c   && ./05.exe && echo -e "\n"
+echo "Running 01-basic-window.c ..."
+clang -I. -o 01.exe examples/01-basic-window.c  && ./01.exe && echo -e "\n"
+# echo "Running 02-event-handling.c ..."
+# clang -I. -o 02.exe examples/02-event-handling.c    && ./02.exe && echo -e "\n"
+# echo "Running 03-drawing-rectangles.c ..."
+# clang -I. -o 03.exe examples/03-drawing-rectangles.c  && ./03.exe && echo -e "\n"
+# echo "Running 04-audio-playback.c ..."
+# clang -I. -o 04.exe examples/04-audio-playback.c && ./04.exe && echo -e "\n"
+# echo "Running 05-texture-rendering.c ..."
+# clang -I. -o 05.exe examples/05-texture-rendering.c   && ./05.exe && echo -e "\n"
+# echo "Running 06-game-loop.c ..."
+# clang -I. -o 06.exe examples/06-game-loop.c      && ./06.exe && echo -e "\n"
+# echo "Running 07-joystick-input.c ..."
+# clang -I. -o 07.exe examples/07-joystick-input.c   && ./07.exe && echo -e "\n"
 }
 
 

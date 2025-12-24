@@ -22,7 +22,7 @@
 #ifndef SDL_riscosframebuffer_c_h_
 #define SDL_riscosframebuffer_c_h_
 
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 
 extern bool RISCOS_CreateWindowFramebuffer(SDL_VideoDevice *_this, SDL_Window *window, SDL_PixelFormat *format, void **pixels, int *pitch);
 extern bool RISCOS_UpdateWindowFramebuffer(SDL_VideoDevice *_this, SDL_Window *window, const SDL_Rect *rects, int numrects);

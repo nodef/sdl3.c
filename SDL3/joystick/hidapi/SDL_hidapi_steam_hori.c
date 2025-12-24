@@ -18,7 +18,7 @@
      misrepresented as being the original software.
   3. This notice may not be removed or altered from any source distribution.
 */
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 
 #ifdef SDL_JOYSTICK_HIDAPI
 
@@ -125,7 +125,7 @@ static bool HIDAPI_DriverSteamHori_OpenJoystick(SDL_HIDAPI_Device *device, SDL_J
 		// Need to actual read from the device to init the serial
 		HIDAPI_DriverSteamHori_UpdateDevice(device);
 	}
-       
+
     SDL_PrivateJoystickAddSensor(joystick, SDL_SENSOR_GYRO, 250.0f);
     SDL_PrivateJoystickAddSensor(joystick, SDL_SENSOR_ACCEL, 250.0f);
 
@@ -320,7 +320,7 @@ static void HIDAPI_DriverSteamHori_HandleStatePacket(SDL_Joystick *joystick, SDL
         imu_data[1] = RemapValClamped(-1.0f * LOAD16(data[12], data[13]), INT16_MIN, INT16_MAX, -gyroScale, gyroScale);
         imu_data[2] = RemapValClamped(-1.0f * LOAD16(data[14], data[15]), INT16_MIN, INT16_MAX, -gyroScale, gyroScale);
         imu_data[0] = RemapValClamped(-1.0f * LOAD16(data[16], data[17]), INT16_MIN, INT16_MAX, -gyroScale, gyroScale);
-		
+
 
         SDL_SendJoystickSensor(timestamp, joystick, SDL_SENSOR_GYRO, sensor_timestamp, imu_data, 3);
 

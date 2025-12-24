@@ -18,7 +18,7 @@
      misrepresented as being the original software.
   3. This notice may not be removed or altered from any source distribution.
 */
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 
 #ifdef HAVE_LIMITS_H
 #include <limits.h>
@@ -2157,4 +2157,3 @@ bool SDL_LoadWAV(const char *path, SDL_AudioSpec *spec, Uint8 **audio_buf, Uint3
     }
     return SDL_LoadWAV_IO(stream, true, spec, audio_buf, audio_len);
 }
-

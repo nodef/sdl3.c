@@ -18,7 +18,7 @@
      misrepresented as being the original software.
   3. This notice may not be removed or altered from any source distribution.
 */
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 
 // This is the gamepad API for Simple DirectMedia Layer
 
@@ -2710,7 +2710,7 @@ bool SDL_ShouldIgnoreGamepad(Uint16 vendor_id, Uint16 product_id, Uint16 version
                     return true;
                 }
                 break;
-            
+
             case GAMEPAD_BLACKLIST_END:
                 if (SDL_endswith(name, blacklist_word->str)) {
                     return true;

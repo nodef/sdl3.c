@@ -19,7 +19,7 @@
   3. This notice may not be removed or altered from any source distribution.
 */
 
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 #include "SDL_main_callbacks.h"
 
 static SDL_AppEvent_func SDL_main_event_callback;
@@ -146,4 +146,3 @@ void SDL_QuitMainCallbacks(SDL_AppResult result)
 
     SDL_Quit();
 }
-

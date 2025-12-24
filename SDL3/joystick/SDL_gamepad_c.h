@@ -22,7 +22,7 @@
 #ifndef SDL_gamepad_c_h_
 #define SDL_gamepad_c_h_
 
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 
 // Useful functions and variables from SDL_gamepad.c
 

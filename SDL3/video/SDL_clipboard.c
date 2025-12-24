@@ -18,7 +18,7 @@
      misrepresented as being the original software.
   3. This notice may not be removed or altered from any source distribution.
 */
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 
 #include "SDL_clipboard_c.h"
 #include "SDL_sysvideo.h"
@@ -484,4 +484,3 @@ bool SDL_HasPrimarySelectionText(void)
         }
     }
 }
-

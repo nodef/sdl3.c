@@ -18,7 +18,7 @@
      misrepresented as being the original software.
   3. This notice may not be removed or altered from any source distribution.
 */
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 
 
 #ifdef SDL_memset
@@ -136,4 +136,3 @@ void *memset(void *dst, int c, size_t len)
     return SDL_memset(dst, c, len);
 }
 #endif // !HAVE_LIBC
-

@@ -1,4 +1,4 @@
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 /* s_isnanf.c -- float version of s_isnan.c.
  * Conversion to float by Ian Lance Taylor, Cygnus Support, ian@cygnus.com.
  */

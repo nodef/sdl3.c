@@ -19,7 +19,7 @@
   3. This notice may not be removed or altered from any source distribution.
 */
 
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 
 // The high-level video driver subsystem
 
@@ -39,16 +39,16 @@
 #include "../main/SDL_main_callbacks.h"
 
 #ifdef SDL_VIDEO_OPENGL
-#include <SDL3/SDL_opengl.h>
+#include "SDL_opengl.h"
 #endif // SDL_VIDEO_OPENGL
 
 #if defined(SDL_VIDEO_OPENGL_ES) && !defined(SDL_VIDEO_OPENGL)
-#include <SDL3/SDL_opengles.h>
+#include "SDL_opengles.h"
 #endif // SDL_VIDEO_OPENGL_ES && !SDL_VIDEO_OPENGL
 
 // GL and GLES2 headers conflict on Linux 32 bits
 #if defined(SDL_VIDEO_OPENGL_ES2) && !defined(SDL_VIDEO_OPENGL)
-#include <SDL3/SDL_opengles2.h>
+#include "SDL_opengles2.h"
 #endif // SDL_VIDEO_OPENGL_ES2 && !SDL_VIDEO_OPENGL
 
 // GL_CONTEXT_RELEASE_BEHAVIOR and GL_CONTEXT_RELEASE_BEHAVIOR_KHR have the same number.

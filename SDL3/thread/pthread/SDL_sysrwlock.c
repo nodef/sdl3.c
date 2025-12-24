@@ -18,7 +18,7 @@
      misrepresented as being the original software.
   3. This notice may not be removed or altered from any source distribution.
 */
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 
 #include <errno.h>
 #include <pthread.h>
@@ -110,4 +110,3 @@ void SDL_UnlockRWLock(SDL_RWLock *rwlock) SDL_NO_THREAD_SAFETY_ANALYSIS  // clan
         SDL_assert(rc == 0);  // assume we're in a lot of trouble if this assert fails.
     }
 }
-

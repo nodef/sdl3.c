@@ -22,7 +22,7 @@
 #ifndef SDL_n3dsframebuffer_c_h_
 #define SDL_n3dsframebuffer_c_h_
 
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 
 extern bool SDL_N3DS_CreateWindowFramebuffer(SDL_VideoDevice *_this, SDL_Window *window, SDL_PixelFormat *format, void **pixels, int *pitch);
 extern bool SDL_N3DS_UpdateWindowFramebuffer(SDL_VideoDevice *_this, SDL_Window *window, const SDL_Rect *rects, int numrects);

@@ -23,7 +23,7 @@
 #include <LocaleRoster.h>
 #include <TypeConstants.h>
 
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 #include "../SDL_syslocale.h"
 
 bool SDL_SYS_GetPreferredLocales(char *buf, size_t buflen)

@@ -1,6 +1,6 @@
 // Copyright 2016 Adrien Descamps
 // Distributed under BSD 3-Clause License
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 
 #ifdef SDL_HAVE_YUV
 #include "yuv_rgb_internal.h"

@@ -18,7 +18,7 @@
      misrepresented as being the original software.
   3. This notice may not be removed or altered from any source distribution.
 */
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 
 // NSOpenGL implementation of SDL OpenGL support
 
@@ -31,7 +31,7 @@
 #include <OpenGL/OpenGL.h>
 #include <OpenGL/CGLRenderers.h>
 
-#include <SDL3/SDL_opengl.h>
+#include "SDL_opengl.h"
 #include "../../SDL_hints_c.h"
 
 #define DEFAULT_OPENGL "/System/Library/Frameworks/OpenGL.framework/Libraries/libGL.dylib"

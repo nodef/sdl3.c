@@ -19,7 +19,7 @@
   3. This notice may not be removed or altered from any source distribution.
 */
 
-#include "SDL_internal.h"
+#include "../../SDL_internal.h"
 
 #ifdef SDL_GPU_VULKAN
 
@@ -29,7 +29,7 @@
 #define VK_NO_PROTOTYPES
 #include "../../video/khronos/vulkan/vulkan.h"
 
-#include <SDL3/SDL_vulkan.h>
+#include "SDL_vulkan.h"
 
 #include "../SDL_sysgpu.h"
 

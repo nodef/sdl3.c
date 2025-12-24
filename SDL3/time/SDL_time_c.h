@@ -22,7 +22,7 @@
 #ifndef SDL_time_c_h_
 #define SDL_time_c_h_
 
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 
 #define SDL_SECONDS_PER_DAY 86400
 

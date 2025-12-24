@@ -18,7 +18,7 @@
      misrepresented as being the original software.
   3. This notice may not be removed or altered from any source distribution.
 */
-#include "SDL_internal.h"
+#include "../SDL_internal.h"
 
 /* Most platforms that use/need SDL_main have their own SDL_RunApp() implementation.
  * If not, you can special case it here by appending || defined(__YOUR_PLATFORM__) */
